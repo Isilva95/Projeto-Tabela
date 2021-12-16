@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 400px;
+  border: 1px solid #CCC;
+}
+th {
+  background-color: #CCC;
+}
+table tr:nth-child(even) {
+  background-color: #00FF00;
+}
+table tr:nth-child(odd) {
+  background-color: #00ffea;
+}
